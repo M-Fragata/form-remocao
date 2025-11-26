@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remoção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="imagens/prefeitura-logo.jpg" alt="logo-prefeitura-de-maricá">
+        </div>
+        <div>
+            <p>ESTADO DO RIO DE JANEIRO</p>
+            <p>PREFEITURA MUNICIPAL DE MARICÁ</p>
+            <p>SECRETARIA DE EDUCAÇÃO</p>
+            <p>SUBSECRETARIA DE ASSUNTOS INSTITUCIONAIS</p>
+            <p>COORDENAÇÃO DE MOVIMENTAÇÃO INSTITUCIONAL</p>
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+
+            <div>
+                <h1>Formulário de Inscrição para Remoção 2025/2026</h1>
+                <p>
+                    As inscrições destinam-se aos profissionais concursados da Secretaria de Educação que atuam nas
+                    Unidades Escolares da Rede Pública Municipal de Ensino. Caso possua duas matrículas e deseja
+                    participar da remoção em ambas, faça uma inscrição para cada matrícula. O formulário de inscrição
+                    ficará disponível para preenchimento de <strong>26/11/2025 a partir das 08 horas até 28/11/2025 às 17 horas.</strong>
+                </p>
+            </div>
+
+            <fieldset>
+                <legend> <label for="mail">Email:</label></legend>
+                <input type="email" id="mail"  placeholder="Seu e-mail" required>
+            </fieldset>
+
+            <fieldset>
+                <legend><label for="name">Nome completo:</label></legend>
+                <input type="text" id="name" placeholder="Seu nome" required>
+            </fieldset>
+
+            <fieldset>
+                <legend><label for="matricula">Matrícula:</label></legend>
+                <h2>ATENÇÃO: Caso possua duas matrículas e deseja participar da remoção em ambas, fazer uma inscrição
+                    para
+                    cada matrícula. </h2>
+                <input type="number" id="matricula" placeholder="Sua matrícula:" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Readaptado: </legend>
+                <h2>ATENÇÃO: entende-se como readaptado apenas se estiver no período de vigência.</h2>
+                <input type="radio" name="uma" id="Sim">
+                <label for="Sim">Sim</label> <br>
+
+                <input type="radio" name="uma" id="Não" checked>
+                <label for="Não">Não</label>
+            </fieldset>
+
+            <fieldset id="cargo">
+                <legend>Cargo:</legend>
+
+                <div>
+                    <input type="radio" name="um" id="doci18">
+                    <label for="doci18">DOCENTE I - REGENTE (18h)</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="um" id="doci30">
+                    <label for="doci30">DOCENTE I - REGENTE (30h)</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="um" id="docii25">
+                    <label for="docii25">DOCENTE II - REGENTE (25h)</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="um" id="docii40">
+                    <label for="docii40">DOCENTE II - REGENTE (40h)</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="um" id="oe20">
+                    <label for="oe20">ORIENTADOR(A) EDUCACIONAL - (20h)</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="um" id="oe40">
+                    <label for="oe40">ORIENTADOR(A) EDUCACIONAL - (40h)</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="um" id="op20">
+                    <label for="op20">ORIENTADOR(A) PEDAGÓGICO - (20h)</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="um" id="op40">
+                    <label for="op40">ORIENTADOR(A) PEDAGÓGICO - (40h)</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="um" id="inspetor">
+                    <label for="inspetor">INSPETOR DE ALUNOS</label>
+                </div>
+
+            </fieldset>
+
+            <input type="submit" value="Avançar">
+
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
